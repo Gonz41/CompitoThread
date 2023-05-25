@@ -1,7 +1,7 @@
 public class App {
     public static void main(String[] args) throws Exception {
         Box box = new Box();
-        Semaforo s = new Semaforo(1);
+        Semaforo s = new Semaforo(2);
 
         Autodromo a1 = new Autodromo("Perez", "Ferrari", 3, box, s);
         Autodromo a2 = new Autodromo("Bottas", "Mercedes", 9, box, s);
